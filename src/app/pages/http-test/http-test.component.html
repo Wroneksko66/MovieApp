@@ -1,0 +1,10 @@
+<div class="grid">
+  <button class="btn gray" (click)="get()">Get</button>
+  <button class="btn gray" (click)="post()">Post</button>
+  <button class="btn gray" (click)="patch()">Patch</button>
+
+  <div class="delete">
+    <input class="input" [(ngModel)]="id">
+    <button class="btn gray" (click)="delete(id)">Delete</button>
+  </div>
+</div>
